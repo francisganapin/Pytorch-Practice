@@ -1,4 +1,16 @@
-Name,Age,Salary
-Alice,25,50000
-Bob,30,60000
-Carol,35,70000
+ModelID,Brand,Model,Segment,EngineSize (L),Fuel,Price (USD),Profit (USD)
+1,Subaru,Impreza,Sedan,1.5,Gasoline,15000,1500
+2,Subaru,Forester,SUV,1.8,Gasoline,20000,2000
+3,Honda ,Civic ,Sedan ,1.8,Gasoline,22000,4400
+4,Honda ,CR-V ,SUV ,2.4,Gasoline,28000,2800
+5,Ford ,Ranger ,Pickup ,2,Diesel ,25000,2500
+6,Ford ,Everest ,SUV ,2,Diesel ,30000,3000
+14,Land Rover,Defender,SUV,1.8,Gasoline,14000,1400
+15,Land Rover,Range Rover,SUV,3,Gasoline,26000,2600
+9,Mitsubishi ,Xpander ,MPV ,1.5,Gasoline,18000,1800
+10,Mitsubishi ,Outlander ,SUV ,2.4,Gasoline,32000,3200
+11,Hyundai ,Accent ,Sedan ,1.6,Gasoline,16000,3200
+12,Hyundai ,Santa Fe ,SUV ,2.4,Gasoline,34000,3400
+1,Toyota,Vios,Sedan,1.5,Gasoline,12000,1200
+2,Toyota,Corolla Cross,SUV,1.8,Gasoline,25000,5000
+15,Mazda ,Mazda3 ,Sedan ,2,Gasoline,24000,2400

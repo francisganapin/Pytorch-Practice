@@ -1,0 +1,46 @@
+
+<form>
+        <select id="paymentMethodSelect">
+            <option value="">--select--</option>
+            <option value="gcash">Gcash</option>
+            <option value="maya">Maya</option>
+            <option value="cash">COD</option>
+        </select>
+
+
+        <div class='onlinePaymentDetails'>
+            <input type='text' id='inputDetails' name="paymentDetails" placeholder="Payment Details">
+            </div>
+            
+        <div class='contactNumberField'>
+            <input type='text' id='inputContact' name="contactNumber" placeholder="cell phone">
+        <div>
+</form>
+
+<script>
+        const inputDetails = document.getElementById('inputDetails');
+        const inputContact = document.getElementById('inputContact');
+        const details = "COD";
+        const contact = "COD";
+    
+        // Show/hide fields based on the selected payment method
+        paymentMethodSelect.addEventListener("change", () => {
+          if (paymentMethodSelect.value === "gcash" || paymentMethodSelect.value === "maya") {
+            onlinePaymentDetails.style.display = "block"; // Show name of sender and sender number
+            contactNumberField.style.display = "block"; // Always show the contact number
+            document.getElementById('input').textContent = input;
+          } else if (paymentMethodSelect.value === "cash") {
+            document.getElementById('input').textContent = input;
+            onlinePaymentDetails.style.display = "none"; // Hide name of sender and sender number
+            contactNumberField.style.display = "block"; // Show contact number only
+            inputDetails.value = details; // add this
+            inputContact.value = contact; // add this
+            
+          } else {
+            onlinePaymentDetails.style.display = "none";
+            contactNumberField.style.display = "none"; // Hide everything if no payment method is selected
+            inputDetails.value = ""; // add this
+            inputContact.value = ""; // add this
+          }
+        });
+</script>

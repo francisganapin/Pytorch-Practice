@@ -1,0 +1,16 @@
+ModelID,Brand,Model,Segment,EngineSize (L),Fuel,Price (USD),Profit (USD),Profit Margin (%),Price Category
+1,Subaru,Impreza,Sedan,1.5,Gasoline,15000,1500,10.0,Midrange
+2,Subaru,Forester,SUV,1.8,Gasoline,20000,2000,10.0,Midrange
+3,Honda ,Civic ,Sedan ,1.8,Gasoline,22000,4400,20.0,Premium
+4,Honda ,CR-V ,SUV ,2.4,Gasoline,28000,2800,10.0,Premium
+5,Ford ,Ranger ,Pickup ,2.0,Diesel ,25000,2500,10.0,Premium
+6,Ford ,Everest ,SUV ,2.0,Diesel ,30000,3000,10.0,Premium
+14,Land Rover,Defender,SUV,1.8,Gasoline,14000,1400,10.0,Midrange
+15,Land Rover,Range Rover,SUV,3.0,Gasoline,26000,2600,10.0,Premium
+9,Mitsubishi ,Xpander ,MPV ,1.5,Gasoline,18000,1800,10.0,Midrange
+10,Mitsubishi ,Outlander ,SUV ,2.4,Gasoline,32000,3200,10.0,Luxury
+11,Hyundai ,Accent ,Sedan ,1.6,Gasoline,16000,3200,20.0,Midrange
+12,Hyundai ,Santa Fe ,SUV ,2.4,Gasoline,34000,3400,10.0,Luxury
+1,Toyota,Vios,Sedan,1.5,Gasoline,12000,1200,10.0,Midrange
+2,Toyota,Corolla Cross,SUV,1.8,Gasoline,25000,5000,20.0,Premium
+15,Mazda ,Mazda3 ,Sedan ,2.0,Gasoline,24000,2400,10.0,Premium
